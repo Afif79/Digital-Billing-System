@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@color/slategray">
+    android:background="@color/white">
 
     <TextView
         android:id="@+id/title_head"
@@ -26,7 +26,7 @@
         android:id="@+id/bottom_navigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/shape"
+        app:cardBackgroundColor="#FBFAFC"
         android:backgroundTint="@drawable/selector"
         app:itemIconTint="@drawable/selector"
         app:itemTextColor="@drawable/selector"
@@ -40,6 +40,8 @@
         android:layout_width="180dp"
         android:layout_height="150dp"
         android:layout_margin="8dp"
+        app:cardCornerRadius="15dp"
+        app:cardBackgroundColor="#FBFAFC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/card"
@@ -86,6 +88,8 @@
         android:layout_width="180dp"
         android:layout_height="150dp"
         android:layout_margin="8dp"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="#FBFAFC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/card2"
         app:layout_constraintStart_toStartOf="parent"
